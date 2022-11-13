@@ -18,13 +18,18 @@
 .logo-text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 40px 40px;
 }
 
 .logo-text h1{
     font-size: 24px;
+    margin-left: 5px;
+}
+
+.list-items-bottom {
+    margin: 40px 0 0 0;
 }
 
 .icon-text{
@@ -36,8 +41,9 @@
 }
 
 .icon-text p {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 14px;
+    font-weight: 700;
 }
 
 .main {
