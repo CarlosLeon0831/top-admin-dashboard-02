@@ -59,11 +59,11 @@
   background-color: white;
 }
 
-.navbar {
+.navbar, .left {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 10px 20px;
+  margin: 5px 20px;
 }
 
 .form-input {
@@ -75,11 +75,34 @@
     margin-right: 200px;
 }
 
-.avatarNavbar {
+.avatarNavbar, .avatarWelcome {
     margin: 0 20px;
 }
 
 .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: var(--sidebar-bg);
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: 1px solid var(--sidebar-bg);
+    border-radius: 25px;
 }
 
 .content {
