@@ -4,6 +4,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+h4 {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -131,6 +140,12 @@
     padding: 10px;
 }
 
+.card p {
+    font-size: 14px;
+    color: var(--card-text);
+    margin: 5px 0;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
@@ -139,8 +154,21 @@
     width: 90%;
 }
 
+.ann-trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card, .trend-card {
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 :root {
   --sidebar-bg: #0ea5e9;
   --content-bg: #e2e8f0;
   --card-border: #fbbf24;
+  --card-text: #64748b;
 }
